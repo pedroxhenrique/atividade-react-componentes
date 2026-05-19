@@ -1,16 +1,55 @@
-# React + Vite
+# 🌿 Atividade React - Bucket List Gaucha
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Atividade Pratica 2 desenvolvida para a disciplina da faculdade, com foco em **criacao e utilizacao de componentes em React**.
 
-Currently, two official plugins are available:
+## 📋 Sobre o Projeto
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Aplicacao de Bucket List apresentando destinos para visitar no Rio Grande do Sul. 
+A aplicacao foi desenvolvida com foco em **componentizacao**, dividindo a interface 
+em multiplos componentes reutilizaveis e organizados.
 
-## React Compiler
+## 🧩 Componentes Criados
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+A aplicacao foi estruturada em 5 componentes secundarios, todos importados e 
+utilizados no componente principal `App.jsx`:
 
-## Expanding the ESLint configuration
+- **Cabecalho.jsx** - Cabecalho com titulo da aplicacao
+- **Estatisticas.jsx** - Bloco com estatisticas (destinos, regioes, estado)
+- **CardDestino.jsx** - Card individual de cada destino
+- **ListaDestinos.jsx** - Container que renderiza todos os cards
+- **Rodape.jsx** - Rodape com frase motivacional
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Alem dos componentes, os dados foram separados em um arquivo proprio:
+- **destinos.js** - Array com os dados dos destinos turisticos
+
+## 📁 Estrutura de Pastas
+
+## 🖼️ Print da Aplicacao
+
+![Print da Aplicacao](./atividade_react_ap2.png)
+
+## 🚀 Tecnologias Utilizadas
+
+- React
+- Vite
+- JavaScript (ES6+)
+- Componentizacao com Props
+
+## 💡 Conceitos Aplicados
+
+- Criacao de componentes funcionais
+- Importacao e exportacao de modulos (import/export)
+- Comunicacao entre componentes via Props
+- Renderizacao de listas com .map()
+- Separacao de dados e apresentacao
+
+## 💻 Como Executar o Projeto
+
+```bash
+npm install
+npm run dev
+```
+
+---
+
+Desenvolvido como atividade academica 🎓
